@@ -35,7 +35,7 @@ _I'd love for you to make the most of this project - it's all about learning, he
 	# installs fnm (Fast Node Manager)
 	winget install Schniz.fnm
 	
-	# download and install Node.js
+.	# download and install Node.js
 	fnm use --install-if-missing 20
 	
 	# verifies the right Node.js version is in the environment
