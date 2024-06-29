@@ -32,6 +32,19 @@ _I'd love for you to make the most of this project - it's all about learning, he
    cd backend
    ```
 
+	# installs fnm (Fast Node Manager)
+	winget install Schniz.fnm
+	
+	# download and install Node.js
+	fnm use --install-if-missing 20
+	
+	# verifies the right Node.js version is in the environment
+	node -v # should print `v20.15.0`
+	
+	# verifies the right NPM version is in the environment
+	npm -v # should print `10.7.0`
+
+
 3. **Install Required Dependencies**
 
    ```bash
